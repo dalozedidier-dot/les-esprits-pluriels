@@ -1,65 +1,29 @@
 # Les Esprits Pluriels
 
-Site statique consacré à la neurodiversité.
+Version du site préparée le 2026-09-12 pour GitHub Pages et le domaine `www.les-esprits-pluriels.be`.
 
-## Rubriques
+## Changements principaux
 
-- Neurodiversité
-- Connaissances
-- Témoignages
-- Outils
-- Vie quotidienne
-- Travail
-- Relations
-- Société
+- nouveau jeu de logos et bannières installé dans `assets/img/`
+- favicons 16, 32, 48, 64, 180, 192, 256 et 512 px
+- `favicon.ico`, Apple Touch Icon et icône maskable PWA
+- suppression du tiret cadratin dans les balises `<title>`
+- titres SEO uniques par page
+- descriptions SEO uniques
+- URLs canoniques sur le domaine `.be`
+- Open Graph et Twitter Cards
+- `sitemap.xml`
+- `robots.txt`
+- données structurées JSON-LD
+- pages À propos, Première visite, Annuaire Belgique, Contribuer, FAQ et Charte éditoriale
+- trois premiers articles de fond
+- contenu enrichi dans les huit rubriques principales
+- footer et header alignés sur la nouvelle identité
 
-## Publication avec GitHub Pages
+## Important pour Google
 
-Le dépôt est prêt pour GitHub Pages.
+La balise `meta keywords` est incluse à titre secondaire, mais Google ne l'utilise pas comme signal de classement. Le référencement repose surtout sur les titres, le contenu visible, les liens internes, les URL canoniques, le sitemap, les données structurées et la qualité des pages.
 
-1. Créer un dépôt GitHub nommé `les-esprits-pluriels`.
-2. Envoyer tout le contenu de ce dossier à la racine de la branche `main`.
-3. Dans **Settings → Pages**, choisir **GitHub Actions** comme source.
-4. Le workflow `.github/workflows/pages.yml` publiera automatiquement le site après chaque envoi sur `main`.
+## Déploiement
 
-Le fichier `.nojekyll` permet également une publication statique directe si vous choisissez ensuite un autre mode de déploiement GitHub Pages.
-
-## Structure
-
-```text
-.
-├── .github/workflows/pages.yml
-├── .nojekyll
-├── 404.html
-├── index.html
-├── neurodiversite.html
-├── connaissances.html
-├── temoignages.html
-├── outils.html
-├── vie-quotidienne.html
-├── travail.html
-├── relations.html
-├── societe.html
-├── manifest.webmanifest
-├── robots.txt
-└── assets/
-    ├── css/styles.css
-    ├── js/main.js
-    └── img/
-```
-
-## Prévisualisation locale
-
-Un simple serveur HTTP suffit. Par exemple :
-
-```bash
-python -m http.server 8000
-```
-
-Puis ouvrir `http://localhost:8000`.
-
-## Nom de dépôt conseillé
-
-`les-esprits-pluriels`
-
-Le site fonctionnera aussi bien comme dépôt de projet GitHub Pages (`https://utilisateur.github.io/les-esprits-pluriels/`) que derrière un domaine personnalisé, puisque les liens et ressources sont relatifs.
+Copier tout le contenu de ce dossier à la racine de la branche `main`. Le workflow GitHub Pages existant peut ensuite republier le site.

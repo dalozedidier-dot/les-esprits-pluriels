@@ -1,2 +1,3 @@
 User-agent: *
 Allow: /
+Sitemap: https://www.les-esprits-pluriels.be/sitemap.xml
