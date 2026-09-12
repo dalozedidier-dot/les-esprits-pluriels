@@ -529,3 +529,16 @@ body[data-density="compact"] .section{padding-top:46px;padding-bottom:46px}
   .theme-copy { padding: 22px 24px 58px; }
 }
 /* Fin vignettes thématiques accueil */
+
+.tool-scope-note {
+  margin-bottom: 34px;
+}
+.tool-scope-note p {
+  margin: 10px 0 0;
+}
+.tool-role {
+  margin: 14px 0 0;
+  color: var(--deep);
+  font-weight: 700;
+  font-size: 14px;
+}
