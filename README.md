@@ -4,32 +4,42 @@ Version de travail préparée le 12 septembre 2026 pour GitHub Pages et le domai
 
 ## État actuel
 
-- accueil remanié avec vignettes thématiques
-- annuaire francophone avec 41 fiches, filtres par territoire et besoin, type de structure et date de vérification
-- 13 articles, dont plusieurs dossiers longs avec sources et date de revue
-- TDAH adulte et burnout autistique dépassent désormais 1 200 mots
-- dossier Accessibilité cognitive développé au format long
-- sommaire sur les articles longs
-- modes de lecture Standard, Aérée et Compacte, mémorisés localement
-- 4 outils disponibles en version web et PDF A4 d’une page
-- grille de préparation d’un témoignage sans collecte de données
-- première page locale de témoignage public, résumée et contextualisée à partir d’une source identifiable
-- première version en texte simple sur la neurodiversité
-- page Accessibilité complétée avec les modes de lecture
-- politique de confidentialité complétée avec GitHub Pages, les droits RGPD et le stockage local du réglage de lecture
-- hébergeur GitHub Pages documenté dans les informations légales
-- titres SEO raccourcis sur les pages les plus longues
-- `sitemap.xml` et `robots.txt` régénérés
+- accueil avec les 8 portes thématiques conservées et 4 chemins de Première visite
+- adresse publique `contact@les-esprits-pluriels.be`
+- pages Contact, Confidentialité, Informations légales, À propos et Contribuer mises à jour
+- annuaire francophone avec 64 fiches et filtres par territoire, besoin et type de porte
+- date `Vérifié le` sur chaque fiche de l’annuaire
+- France, Suisse romande, Luxembourg, Québec et Canada francophone, Afrique, Haïti, océan Indien et outre-mer mieux documentés
+- portes CRA distinctes pour Guadeloupe, Martinique, Guyane, La Réunion et Mayotte
+- 16 portes africaines, dont des ressources publiques en Guinée, Gabon, Bénin et Maroc
+- dossiers longs TDAH adulte, burnout autistique, HPI et accessibilité cognitive
+- nouveaux dossiers sur le diagnostic TDAH adulte francophone, l’école et les aménagements, le diagnostic tardif et le travail selon les territoires
+- sommaires sur les dossiers longs et balisage `Article` sur les articles concernés
+- modes de lecture Standard, Aérée et Compacte mémorisés localement
+- 8 outils disponibles en version web, imprimables et en PDF A4
+- premier récit contextualisé relié à un article et à un outil
+- canal de contribution ouvert avec grille de préparation et trois profils recherchés sans fabrication de témoignage
+- pages Vie quotidienne et Relations enrichies avec des contenus concrets
+- page S’orienter selon le pays pour transformer une information générale en porte locale
+- `sitemap.xml` et `robots.txt` à jour
 - aucune balise `meta keywords`
 
-## Données publiques encore nécessaires
+## Principe d’articulation
 
-Deux informations ne peuvent pas être déduites ou inventées :
+Le menu à 8 portes reste la structure principale. Les contenus suivent autant que possible ce parcours :
 
-1. l’identité que l’éditeur souhaite publier
-2. l’adresse e-mail publique de la plateforme
+1. un dossier explique le sujet
+2. un outil aide à préparer l’action
+3. une fiche territoriale précise la démarche locale
+4. l’annuaire répond à la question « à qui s’adresser ici ? »
 
-Tant que ces données ne sont pas fournies, `contact.html` et `mentions-legales.html` restent en `noindex` et ne sont pas intégrées au sitemap. Le canal de témoignage direct reste fermé pour la même raison.
+Les témoignages renvoient vers les dossiers et les outils pertinents. Les manques documentaires restent visibles lorsqu’aucune porte stable et vérifiable n’a été trouvée.
+
+## Points qui nécessitent encore une action externe
+
+- Search Console demande l’accès au compte ou un jeton de vérification du domaine
+- les prochains témoignages doivent provenir de personnes réelles et consentantes
+- si l’éditeur souhaite publier une identité civile, une entité juridique ou une adresse postale dans les informations légales, ces données doivent être ajoutées explicitement
 
 ## Déploiement
 
