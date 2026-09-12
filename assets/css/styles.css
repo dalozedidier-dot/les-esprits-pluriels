@@ -542,3 +542,9 @@ body[data-density="compact"] .section{padding-top:46px;padding-bottom:46px}
   font-weight: 700;
   font-size: 14px;
 }
+
+.section-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}
+
+.simple-reading{max-width:760px}
+.simple-reading p{font-size:18px;line-height:1.78}
+.simple-reading h2{margin-top:38px}
