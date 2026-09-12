@@ -15,7 +15,7 @@ Version du site préparée le 2026-09-12 pour GitHub Pages et le domaine `www.le
 - `sitemap.xml`
 - `robots.txt`
 - données structurées JSON-LD
-- pages À propos, Première visite, Annuaire Belgique, Contribuer, FAQ et Charte éditoriale
+- pages À propos, Première visite, Annuaire francophone, Contribuer, FAQ et Charte éditoriale
 - trois premiers articles de fond
 - contenu enrichi dans les huit rubriques principales
 - footer et header alignés sur la nouvelle identité
