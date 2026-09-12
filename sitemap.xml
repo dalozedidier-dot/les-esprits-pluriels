@@ -1,23 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://www.les-esprits-pluriels.be/</loc><lastmod>2026-09-12</lastmod></url>
-  <url><loc>https://www.les-esprits-pluriels.be/neurodiversite.html</loc><lastmod>2026-09-12</lastmod></url>
+  <url><loc>https://www.les-esprits-pluriels.be/a-propos.html</loc><lastmod>2026-09-12</lastmod></url>
+  <url><loc>https://www.les-esprits-pluriels.be/accessibilite.html</loc><lastmod>2026-09-12</lastmod></url>
+  <url><loc>https://www.les-esprits-pluriels.be/annuaire-francophone.html</loc><lastmod>2026-09-12</lastmod></url>
+  <url><loc>https://www.les-esprits-pluriels.be/articles.html</loc><lastmod>2026-09-12</lastmod></url>
+  <url><loc>https://www.les-esprits-pluriels.be/charte-editoriale.html</loc><lastmod>2026-09-12</lastmod></url>
+  <url><loc>https://www.les-esprits-pluriels.be/confidentialite.html</loc><lastmod>2026-09-12</lastmod></url>
   <url><loc>https://www.les-esprits-pluriels.be/connaissances.html</loc><lastmod>2026-09-12</lastmod></url>
-  <url><loc>https://www.les-esprits-pluriels.be/temoignages.html</loc><lastmod>2026-09-12</lastmod></url>
+  <url><loc>https://www.les-esprits-pluriels.be/contribuer.html</loc><lastmod>2026-09-12</lastmod></url>
+  <url><loc>https://www.les-esprits-pluriels.be/cookies.html</loc><lastmod>2026-09-12</lastmod></url>
+  <url><loc>https://www.les-esprits-pluriels.be/faq.html</loc><lastmod>2026-09-12</lastmod></url>
+  <url><loc>https://www.les-esprits-pluriels.be/glossaire.html</loc><lastmod>2026-09-12</lastmod></url>
+  <url><loc>https://www.les-esprits-pluriels.be/neurodiversite.html</loc><lastmod>2026-09-12</lastmod></url>
   <url><loc>https://www.les-esprits-pluriels.be/outils.html</loc><lastmod>2026-09-12</lastmod></url>
-  <url><loc>https://www.les-esprits-pluriels.be/vie-quotidienne.html</loc><lastmod>2026-09-12</lastmod></url>
-  <url><loc>https://www.les-esprits-pluriels.be/travail.html</loc><lastmod>2026-09-12</lastmod></url>
+  <url><loc>https://www.les-esprits-pluriels.be/premiere-visite.html</loc><lastmod>2026-09-12</lastmod></url>
   <url><loc>https://www.les-esprits-pluriels.be/relations.html</loc><lastmod>2026-09-12</lastmod></url>
   <url><loc>https://www.les-esprits-pluriels.be/societe.html</loc><lastmod>2026-09-12</lastmod></url>
-  <url><loc>https://www.les-esprits-pluriels.be/premiere-visite.html</loc><lastmod>2026-09-12</lastmod></url>
-  <url><loc>https://www.les-esprits-pluriels.be/a-propos.html</loc><lastmod>2026-09-12</lastmod></url>
-  <url><loc>https://www.les-esprits-pluriels.be/annuaire-francophone.html</loc><lastmod>2026-09-12</lastmod></url>
-  <url><loc>https://www.les-esprits-pluriels.be/contribuer.html</loc><lastmod>2026-09-12</lastmod></url>
-  <url><loc>https://www.les-esprits-pluriels.be/faq.html</loc><lastmod>2026-09-12</lastmod></url>
-  <url><loc>https://www.les-esprits-pluriels.be/charte-editoriale.html</loc><lastmod>2026-09-12</lastmod></url>
-  <url><loc>https://www.les-esprits-pluriels.be/articles/neurodiversite-neurodivergence-diagnostic.html</loc><lastmod>2026-09-12</lastmod></url>
+  <url><loc>https://www.les-esprits-pluriels.be/sources-et-methode.html</loc><lastmod>2026-09-12</lastmod></url>
+  <url><loc>https://www.les-esprits-pluriels.be/temoignages.html</loc><lastmod>2026-09-12</lastmod></url>
+  <url><loc>https://www.les-esprits-pluriels.be/travail.html</loc><lastmod>2026-09-12</lastmod></url>
+  <url><loc>https://www.les-esprits-pluriels.be/vie-quotidienne.html</loc><lastmod>2026-09-12</lastmod></url>
+  <url><loc>https://www.les-esprits-pluriels.be/articles/accessibilite-cognitive.html</loc><lastmod>2026-09-12</lastmod></url>
   <url><loc>https://www.les-esprits-pluriels.be/articles/amenagements-raisonnables-travail-belgique.html</loc><lastmod>2026-09-12</lastmod></url>
+  <url><loc>https://www.les-esprits-pluriels.be/articles/burnout-autistique.html</loc><lastmod>2026-09-12</lastmod></url>
+  <url><loc>https://www.les-esprits-pluriels.be/articles/camouflage-masking-autisme.html</loc><lastmod>2026-09-12</lastmod></url>
+  <url><loc>https://www.les-esprits-pluriels.be/articles/double-empathie.html</loc><lastmod>2026-09-12</lastmod></url>
+  <url><loc>https://www.les-esprits-pluriels.be/articles/hpi-sans-mythes.html</loc><lastmod>2026-09-12</lastmod></url>
+  <url><loc>https://www.les-esprits-pluriels.be/articles/monotropisme.html</loc><lastmod>2026-09-12</lastmod></url>
+  <url><loc>https://www.les-esprits-pluriels.be/articles/neurodiversite-histoire-paradigme.html</loc><lastmod>2026-09-12</lastmod></url>
+  <url><loc>https://www.les-esprits-pluriels.be/articles/neurodiversite-neurodivergence-diagnostic.html</loc><lastmod>2026-09-12</lastmod></url>
   <url><loc>https://www.les-esprits-pluriels.be/articles/surcharge-sensorielle-quotidien.html</loc><lastmod>2026-09-12</lastmod></url>
-
-  <url><loc>https://www.les-esprits-pluriels.be/confidentialite.html</loc></url>
+  <url><loc>https://www.les-esprits-pluriels.be/articles/tdah-reperes-diagnostic.html</loc><lastmod>2026-09-12</lastmod></url>
+  <url><loc>https://www.les-esprits-pluriels.be/articles/travail-handicap-francophonie.html</loc><lastmod>2026-09-12</lastmod></url>
+  <url><loc>https://www.les-esprits-pluriels.be/articles/troubles-dys-reperes.html</loc><lastmod>2026-09-12</lastmod></url>
+  <url><loc>https://www.les-esprits-pluriels.be/outils-pratiques/clarifier-une-consigne.html</loc><lastmod>2026-09-12</lastmod></url>
+  <url><loc>https://www.les-esprits-pluriels.be/outils-pratiques/comment-travailler-avec-moi.html</loc><lastmod>2026-09-12</lastmod></url>
+  <url><loc>https://www.les-esprits-pluriels.be/outils-pratiques/journal-surcharge.html</loc><lastmod>2026-09-12</lastmod></url>
+  <url><loc>https://www.les-esprits-pluriels.be/outils-pratiques/preparer-rendez-vous.html</loc><lastmod>2026-09-12</lastmod></url>
 </urlset>

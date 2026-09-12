@@ -1,0 +1,47 @@
+Les Esprits Pluriels, corrections post-audit du 12 septembre 2026
+
+Points appliqués :
+- Liens internes vers / au lieu de index.html
+- fetchpriority high sur les visuels principaux
+- Accessibilité : page dédiée factuelle
+- Cookies : page dédiée factuelle
+- Referrer Policy via meta
+- Meta keywords absentes
+- Article schema déjà présent sur les 3 articles, conservé
+- Aucun schéma Organization ajouté tant qu'aucune structure légale correspondante n'est définie
+- Contact et mentions légales restent noindex tant que les informations réelles ne sont pas fournies
+- Aucun tiret cadratin
+
+{
+  "em_dash_count": 0,
+  "meta_keywords_count": 0,
+  "index_html_internal_links": [],
+  "missing_local_links": [],
+  "article_schema_pages": [
+    "surcharge-sensorielle-quotidien.html",
+    "amenagements-raisonnables-travail-belgique.html",
+    "neurodiversite-neurodivergence-diagnostic.html"
+  ],
+  "legal_pages": {
+    "contact.html": {
+      "exists": true,
+      "noindex": true
+    },
+    "mentions-legales.html": {
+      "exists": true,
+      "noindex": true
+    },
+    "confidentialite.html": {
+      "exists": true,
+      "noindex": false
+    },
+    "cookies.html": {
+      "exists": true,
+      "noindex": false
+    },
+    "accessibilite.html": {
+      "exists": true,
+      "noindex": false
+    }
+  }
+}
