@@ -1,0 +1,47 @@
+Corrections appliquées
+- Suppression globale des meta keywords
+- Images responsive WebP pour logo et emblème
+- Navigation desktop sécurisée avant 1320 px
+- Focus clavier visible
+- prefers-reduced-motion
+- Section 'Déjà utile dès aujourd’hui' remontée avant les 8 rubriques
+- Hero harmonisé francophonie / ressources vérifiées
+- Page Confidentialité factuelle
+- Pages Contact et Informations légales créées sans données inventées, volontairement noindex tant qu’elles ne sont pas complétées
+- Aucun tiret cadratin
+
+{
+  "meta_keywords_remaining": 0,
+  "em_dashes_remaining": 0,
+  "missing_local_links": [],
+  "optimized_assets": {
+    "logo-horizontal-400.webp": {
+      "size": [
+        400,
+        101
+      ],
+      "bytes": 17202
+    },
+    "logo-horizontal-800.webp": {
+      "size": [
+        800,
+        201
+      ],
+      "bytes": 41954
+    },
+    "embleme-320.webp": {
+      "size": [
+        320,
+        319
+      ],
+      "bytes": 21978
+    },
+    "embleme-600.webp": {
+      "size": [
+        600,
+        598
+      ],
+      "bytes": 47236
+    }
+  }
+}

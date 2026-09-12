@@ -336,3 +336,49 @@ h1, h2, h3 { color: var(--deep); }
   .brand-lockup img { width:250px; }
   .hero-actions { justify-content:center; }
 }
+
+
+/* Audit accessibilité et performance 2026-09 */
+a:focus-visible,
+button:focus-visible,
+summary:focus-visible {
+  outline: 3px solid #F2B55B;
+  outline-offset: 4px;
+  border-radius: 6px;
+}
+
+.brand-lockup picture,
+.hero-mark picture,
+.footer-brand picture {
+  display: block;
+}
+
+@media (max-width: 1320px) and (min-width: 821px) {
+  .header-inner {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+  .main-nav {
+    grid-column: 1;
+    justify-self: stretch;
+  }
+  .nav-list {
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 6px;
+  }
+  .nav-list a {
+    padding: 8px 10px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
