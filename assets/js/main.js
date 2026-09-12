@@ -17,7 +17,7 @@ document.querySelectorAll('.footer-brand').forEach((oldBrand) => {
 
   const logo = document.createElement('img');
   logo.src = 'assets/img/logo-footer.jpg';
-  logo.alt = 'Les Esprits Pluriels — Comprendre · Accueillir · Avancer ensemble';
+  logo.alt = 'Les Esprits Pluriels , Comprendre · Accueillir · Avancer ensemble';
 
   link.appendChild(logo);
   oldBrand.replaceWith(link);
