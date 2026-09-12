@@ -384,3 +384,43 @@ summary:focus-visible {
 }
 
 .tool-sheet{max-width:900px}.worksheet-field{margin:24px 0}.worksheet-field label{display:block;font-weight:700;color:#1E3A40;margin-bottom:8px}.write-area{min-height:86px;border:1.5px solid rgba(30,58,64,.25);border-radius:14px;background:#fff}.resource-check{font-size:13px;opacity:.72}.source-list{padding-left:1.2rem}.source-list li{margin:.55rem 0}.source-note{font-size:14px;opacity:.76}.directory-country{margin-top:54px}@media print{.site-header,.site-footer,.print-button,.skip-link,.hero-actions .ghost{display:none!important}body{background:#fff!important}.article-hero,.section{padding:18px 0!important}.tool-sheet{max-width:none!important}.write-area{min-height:110px;break-inside:avoid}a{color:inherit;text-decoration:none}}
+
+/* Lecture et annuaire, septembre 2026 */
+.reading-controls{display:flex;align-items:center;gap:8px;flex-wrap:wrap;max-width:1180px;margin:10px auto 0;padding:0 24px;font-size:13px}
+.reading-controls span{font-weight:600;color:#1E3A40}
+.reading-controls button{border:1px solid rgba(30,58,64,.22);background:#fff;color:#1E3A40;border-radius:999px;padding:6px 10px;cursor:pointer;font:inherit}
+.reading-controls button[aria-pressed="true"]{background:#1E3A40;color:#fff}
+body[data-density="airy"] .article-body,body[data-density="airy"] .intro,body[data-density="airy"] .hero-text{line-height:1.9}
+body[data-density="airy"] .article-body p{margin-bottom:1.5em}
+body[data-density="compact"] .article-body,body[data-density="compact"] .intro,body[data-density="compact"] .hero-text{line-height:1.48}
+body[data-density="compact"] .article-body p{margin-bottom:.8em}
+body[data-density="compact"] .section{padding-top:46px;padding-bottom:46px}
+.article-toc{position:sticky;top:88px;align-self:start;border:1px solid rgba(30,58,64,.14);border-radius:16px;padding:18px;background:rgba(255,255,255,.94);backdrop-filter:blur(8px);min-width:220px;max-width:260px}
+.article-toc strong{display:block;margin-bottom:8px;color:#1E3A40}
+.article-toc ol{margin:0;padding-left:18px}
+.article-toc li{margin:.45rem 0}
+.article-toc a{text-decoration:none}
+.article-layout:has(.article-toc){display:grid;grid-template-columns:minmax(190px,260px) minmax(0,1fr);gap:42px;align-items:start}
+.directory-tools{display:flex;gap:14px;align-items:end;flex-wrap:wrap;margin:24px 0 34px;padding:18px;border:1px solid rgba(30,58,64,.12);border-radius:18px;background:#fff}
+.directory-filter{display:grid;gap:6px;min-width:210px}
+.directory-filter label{font-size:13px;font-weight:700;color:#1E3A40}
+.directory-filter select{border:1px solid rgba(30,58,64,.25);border-radius:10px;padding:10px 12px;background:#fff;font:inherit;color:#1E3A40}
+.directory-count{margin:0 0 9px auto;font-size:14px;color:rgba(30,58,64,.72)}
+.directory-meta{display:grid;grid-template-columns:max-content 1fr;gap:4px 10px;margin:14px 0 16px;font-size:13px}
+.directory-meta dt{font-weight:700;color:#1E3A40}
+.directory-meta dd{margin:0;color:rgba(30,58,64,.76)}
+.resource-card[hidden]{display:none!important}
+.tool-download{margin-top:14px}
+.tool-download a{display:inline-flex;align-items:center;gap:8px}
+.article-faq{margin-top:42px;padding-top:6px;border-top:1px solid rgba(30,58,64,.12)}
+.article-faq h3{font-size:1.05rem;margin-top:22px;margin-bottom:6px}
+@media (max-width:980px){
+ .article-layout:has(.article-toc){display:block}
+ .article-toc{position:static;max-width:none;margin-bottom:28px}
+ .directory-count{margin-left:0;width:100%}
+}
+@media (max-width:700px){
+ .reading-controls{padding:0 16px}
+ .directory-filter{width:100%;min-width:0}
+ .directory-filter select{width:100%}
+}
