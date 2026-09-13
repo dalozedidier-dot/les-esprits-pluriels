@@ -1269,25 +1269,9 @@ body[data-density="compact"] .section{padding-top:46px;padding-bottom:46px}
 .path-overview-card:nth-child(3)::before { background: var(--ochre); }
 .path-overview-card:nth-child(4)::before { background: var(--deep); }
 .path-card-head { padding: 26px 26px 22px; }
-.path-index {
-  display: inline-flex;
-  align-items: center;
-  min-height: 27px;
-  padding: 4px 10px;
-  margin-bottom: 15px;
-  border-radius: 999px;
-  background: var(--sage-soft);
-  color: var(--deep);
-  font-size: 10px;
-  font-weight: 800;
-  letter-spacing: .11em;
-  text-transform: uppercase;
-}
-.path-overview-card:nth-child(2) .path-index { background: rgba(244,160,140,.18); }
-.path-overview-card:nth-child(3) .path-index { background: rgba(242,181,91,.20); }
-.path-overview-card:nth-child(4) .path-index { background: rgba(30,58,64,.09); }
 .path-card-head h3 {
   margin: 0;
+  min-height: 56px;
   font: 700 25px/1.12 var(--serif);
   letter-spacing: -.018em;
   color: var(--deep);
@@ -1369,6 +1353,7 @@ body[data-density="compact"] .section{padding-top:46px;padding-bottom:46px}
 .path-overview-cta:hover { background: var(--deep-2); transform: translateY(-1px); }
 .path-overview-cta span { color: inherit; font-size: 17px; }
 @media (max-width:1180px) {
+  .path-card-head h3,
   .path-card-head p { min-height: 0; }
 }
 @media (max-width:760px) {
