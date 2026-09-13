@@ -17,30 +17,6 @@ if (toggle && nav) {
   });
 }
 
-// Préférence de densité de lecture
-(() => {
-  const body = document.body;
-  if (!body) return;
-  const saved = localStorage.getItem('lep-reading-density') || 'standard';
-  body.dataset.density = saved;
-  if (body.dataset.readingControls === 'off') return;
-  const header = document.querySelector('.site-header');
-  if (!header) return;
-  const wrap = document.createElement('div');
-  wrap.className = 'reading-controls';
-  wrap.setAttribute('aria-label', 'Densité de lecture');
-  wrap.innerHTML = '<span>Lecture</span><button type="button" data-density-choice="standard">Standard</button><button type="button" data-density-choice="airy">Aérée</button><button type="button" data-density-choice="compact">Compacte</button>';
-  header.insertAdjacentElement('afterend', wrap);
-  const refresh = () => wrap.querySelectorAll('button').forEach(btn => btn.setAttribute('aria-pressed', btn.dataset.densityChoice === body.dataset.density ? 'true' : 'false'));
-  wrap.addEventListener('click', event => {
-    const btn = event.target.closest('button[data-density-choice]');
-    if (!btn) return;
-    body.dataset.density = btn.dataset.densityChoice;
-    localStorage.setItem('lep-reading-density', body.dataset.density);
-    refresh();
-  });
-  refresh();
-})();
 
 // Filtres de l'annuaire
 (() => {
