@@ -1,6 +1,6 @@
-## Mise à jour v19
+## Mise à jour v22
 
-Voir `CHANGELOG-v19.md` pour la correction de visibilité de la page Contact et `CHANGELOG-v18.md` pour l’intégration de la nouvelle page d’entrée.
+Voir `CHANGELOG-v22.md` pour les corrections d’accessibilité de la page d’entrée et l’élargissement de l’annuaire. Les changelogs précédents sont conservés pour l’historique.
 
 # Les Esprits Pluriels
 
@@ -11,11 +11,11 @@ Version de travail préparée le 12 septembre 2026 pour GitHub Pages et le domai
 - accueil avec les 8 portes thématiques conservées et 4 chemins de Première visite
 - adresse publique `contact@les-esprits-pluriels.be`
 - pages Contact, Confidentialité, Informations légales, À propos et Contribuer mises à jour
-- annuaire francophone avec 76 fiches et filtres par territoire, besoin et type de porte
+- annuaire francophone avec 83 fiches et filtres par territoire, besoin et type de porte
 - date `Vérifié le` sur chaque fiche de l’annuaire
 - France, Suisse romande, Luxembourg, Québec et Canada francophone, Afrique, Haïti, océan Indien et outre-mer mieux documentés
 - portes CRA distinctes pour Guadeloupe, Martinique, Guyane, La Réunion et Mayotte
-- 16 portes africaines, dont des ressources publiques en Guinée, Gabon, Bénin et Maroc
+- 24 portes africaines, avec des ressources publiques dans la plupart des pays couverts. Le Gabon reste à renforcer avec une seconde porte stable
 - dossiers longs TDAH adulte, burnout autistique, HPI et accessibilité cognitive
 - nouveaux dossiers sur le diagnostic adulte francophone, le TDAH adulte francophone, l’école et les aménagements, le diagnostic tardif et le travail selon les territoires
 - sommaires sur les dossiers longs et balisage `Article` sur les articles concernés

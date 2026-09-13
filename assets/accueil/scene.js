@@ -4,8 +4,9 @@
  const canvas=document.querySelector('#scene'),ctx=canvas.getContext('2d');
  const logo=document.querySelector('#logo'),emblem=document.querySelector('.emblem');
  const motion=document.querySelector('.motion'),replay=document.querySelector('.replay');
+ const enter=document.querySelector('.enter'),skip=document.querySelector('.skip-intro');
  const reduce=matchMedia('(prefers-reduced-motion: reduce)');
- if(['127.0.0.1','localhost'].includes(location.hostname)||location.protocol==='file:')document.querySelector('.enter').href='https://www.les-esprits-pluriels.be/';
+ if(['127.0.0.1','localhost'].includes(location.hostname)||location.protocol==='file:'){enter.href='https://www.les-esprits-pluriels.be/accueil.html';skip.href=enter.href;}
  if(!ctx){document.querySelector('.controls').hidden=true;return;}
  const TAU=Math.PI*2,colors=['#60b5bb','#b9dcc0','#e7ba79','#e99c81'];
  const imageLayer=document.createElement('canvas'),imageCtx=imageLayer.getContext('2d');
@@ -65,6 +66,7 @@
  function updatePause(){document.body.classList.toggle('paused',paused);motion.setAttribute('aria-pressed',String(paused));motion.setAttribute('aria-label',paused?'Reprendre les animations':'Mettre les animations en pause');}
  motion.addEventListener('click',()=>{paused=!paused;updatePause();if(paused){stop();elapsed=Math.max(elapsed,5.7);render();}else start();});
  replay.addEventListener('click',()=>{if(!ready||reduce.matches)return;stop();elapsed=0;interaction=0;paused=false;updatePause();document.body.classList.remove('playing');void document.body.offsetWidth;document.body.classList.add('playing');start();});
+ document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!e.defaultPrevented){e.preventDefault();location.href=enter.href;}});
  window.addEventListener('pointermove',e=>{pointer.x=e.clientX;pointer.y=e.clientY;pointer.active=true;},{passive:true});
  document.addEventListener('pointerleave',()=>{pointer.active=false;});
  window.addEventListener('pointerup',e=>{if(e.pointerType==='touch')pointer.active=false;},{passive:true});
