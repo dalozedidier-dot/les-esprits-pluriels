@@ -19,7 +19,7 @@ Version de travail préparée le 12 septembre 2026 pour GitHub Pages et le domai
 - dossiers longs TDAH adulte, burnout autistique, HPI et accessibilité cognitive
 - nouveaux dossiers sur le diagnostic adulte francophone, le TDAH adulte francophone, l’école et les aménagements, le diagnostic tardif et le travail selon les territoires
 - sommaires sur les dossiers longs et balisage `Article` sur les articles concernés
-- modes de lecture Standard, Aérée et Compacte mémorisés localement
+- présentation de lecture unique, stable et cohérente sur l’ensemble du site
 - 8 outils disponibles en version web, imprimables et en PDF A4
 - premier récit contextualisé relié à un article et à un outil
 - canal de contribution ouvert avec grille de préparation et trois profils recherchés sans fabrication de témoignage
