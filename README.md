@@ -25,6 +25,7 @@ Version de travail préparée le 12 septembre 2026 pour GitHub Pages et le domai
 - canal de contribution ouvert avec grille de préparation et trois profils recherchés sans fabrication de témoignage
 - pages Vie quotidienne et Relations enrichies avec des contenus concrets
 - page S’orienter selon le pays pour transformer une information générale en porte locale
+- page Liens utiles avec une première ressource externe : Atypique World
 - `sitemap.xml` et `robots.txt` à jour
 - aucune balise `meta keywords`
 
