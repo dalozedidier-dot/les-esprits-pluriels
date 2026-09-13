@@ -1,4 +1,4 @@
-/* A particle assembly of the supplied logo, followed by interactive dispersion. */
+/* A particle assembly of the supplied logo. Pointer interaction is intentionally disabled. */
 (() => {
  'use strict';
  const canvas=document.querySelector('#scene'),ctx=canvas.getContext('2d');
@@ -67,9 +67,6 @@
  motion.addEventListener('click',()=>{paused=!paused;updatePause();if(paused){stop();elapsed=Math.max(elapsed,5.7);render();}else start();});
  replay.addEventListener('click',()=>{if(!ready||reduce.matches)return;stop();elapsed=0;interaction=0;paused=false;updatePause();document.body.classList.remove('playing');void document.body.offsetWidth;document.body.classList.add('playing');start();});
  document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!e.defaultPrevented){e.preventDefault();location.href=enter.href;}});
- window.addEventListener('pointermove',e=>{pointer.x=e.clientX;pointer.y=e.clientY;pointer.active=true;},{passive:true});
- document.addEventListener('pointerleave',()=>{pointer.active=false;});
- window.addEventListener('pointerup',e=>{if(e.pointerType==='touch')pointer.active=false;},{passive:true});
  window.addEventListener('resize',measure,{passive:true});
  window.addEventListener('scroll',()=>{box=emblem.getBoundingClientRect();if(!running&&ready)render();},{passive:true});
  document.addEventListener('visibilitychange',()=>document.hidden?stop():start());

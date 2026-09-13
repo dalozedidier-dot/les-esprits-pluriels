@@ -23,6 +23,7 @@ if (toggle && nav) {
   if (!body) return;
   const saved = localStorage.getItem('lep-reading-density') || 'standard';
   body.dataset.density = saved;
+  if (body.dataset.readingControls === 'off') return;
   const header = document.querySelector('.site-header');
   if (!header) return;
   const wrap = document.createElement('div');
