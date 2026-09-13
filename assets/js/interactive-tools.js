@@ -119,6 +119,7 @@
       work:{label:'Travailler', match:e=>e.doors.includes('emploi') || e.needs.includes('emploi') || e.needs.includes('droits'), door:'emploi'}
     };
     const verifiedLabel=s=>{if(!s)return''; const p=s.split('-'); return p.length===3 ? p[2]+'/'+p[1]+'/'+p[0] : s;};
+    const journeys={belgique:'../parcours-belgique.html',france:'../parcours-france.html',suisse:'../parcours-suisse.html',luxembourg:'../parcours-luxembourg.html',canada:'../parcours-quebec.html'};
     const render=()=>{
       const c=select.value;
       if(!c){$$('.gate-results',map).forEach(x=>x.innerHTML='<p class="gate-empty">Choisissez un territoire.</p>');summary.innerHTML='<p>Choisissez d’abord un territoire.</p>';return;}
@@ -134,7 +135,7 @@
         }
         box.insertAdjacentHTML('beforeend','<a class="gate-filter" href="../annuaire-francophone.html?country='+encodeURIComponent(c)+'&door='+g.door+'">Voir l’annuaire filtré →</a>');
       });
-      summary.innerHTML='<p><strong>'+ (data.labels[c]||c) +'</strong> : '+total+' porte'+(total>1?'s':'')+' affichée'+(total>1?'s':'')+' dans les quatre cases. Pour les autres besoins, ouvrez l’annuaire complet.</p>';
+      summary.innerHTML='<p><strong>'+ (data.labels[c]||c) +'</strong> : '+total+' porte'+(total>1?'s':'')+' affichée'+(total>1?'s':'')+' dans les quatre cases. Pour les autres besoins, ouvrez l’annuaire complet.</p>'+(journeys[c]?'<p><a class="button ghost" href="'+journeys[c]+'">Voir le parcours complet du territoire →</a></p>':'');
     };
     select.addEventListener('change', render); render();
   }

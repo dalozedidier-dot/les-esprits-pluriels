@@ -49,3 +49,8 @@ Les témoignages renvoient vers les dossiers et les outils pertinents. Les manqu
 ## Déploiement
 
 Copier le contenu du dossier à la racine de la branche `main`. Le workflow GitHub Pages peut ensuite republier le site.
+
+
+## v36 — parcours territoriaux
+
+Cinq parcours complets sont disponibles : Belgique, France, Suisse romande, Luxembourg et Québec. Ils organisent diagnostic adulte, école, travail et droits avant de renvoyer vers les outils et les contacts vérifiés.
