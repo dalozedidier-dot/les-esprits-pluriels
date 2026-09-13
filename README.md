@@ -1,6 +1,6 @@
-## Mise à jour v17
+## Mise à jour v19
 
-Voir `CHANGELOG-v17.md` pour le détail de l’audit et des corrections du 13 septembre 2026.
+Voir `CHANGELOG-v19.md` pour la correction de visibilité de la page Contact et `CHANGELOG-v18.md` pour l’intégration de la nouvelle page d’entrée.
 
 # Les Esprits Pluriels
 
