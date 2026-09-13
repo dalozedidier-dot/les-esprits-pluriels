@@ -49,10 +49,3 @@ Les témoignages renvoient vers les dossiers et les outils pertinents. Les manqu
 ## Déploiement
 
 Copier le contenu du dossier à la racine de la branche `main`. Le workflow GitHub Pages peut ensuite republier le site.
-
-
-## v26
-
-- Page Contact remaniée avec formulaire local qui prépare un e-mail.
-- Liens visible dans la navigation principale.
-- Entrée Boutique et page dédiée ajoutées.
