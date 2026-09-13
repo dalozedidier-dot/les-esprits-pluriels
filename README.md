@@ -1,3 +1,7 @@
+## Mise à jour v17
+
+Voir `CHANGELOG-v17.md` pour le détail de l’audit et des corrections du 13 septembre 2026.
+
 # Les Esprits Pluriels
 
 Version de travail préparée le 12 septembre 2026 pour GitHub Pages et le domaine `www.les-esprits-pluriels.be`.
@@ -7,13 +11,13 @@ Version de travail préparée le 12 septembre 2026 pour GitHub Pages et le domai
 - accueil avec les 8 portes thématiques conservées et 4 chemins de Première visite
 - adresse publique `contact@les-esprits-pluriels.be`
 - pages Contact, Confidentialité, Informations légales, À propos et Contribuer mises à jour
-- annuaire francophone avec 64 fiches et filtres par territoire, besoin et type de porte
+- annuaire francophone avec 76 fiches et filtres par territoire, besoin et type de porte
 - date `Vérifié le` sur chaque fiche de l’annuaire
 - France, Suisse romande, Luxembourg, Québec et Canada francophone, Afrique, Haïti, océan Indien et outre-mer mieux documentés
 - portes CRA distinctes pour Guadeloupe, Martinique, Guyane, La Réunion et Mayotte
 - 16 portes africaines, dont des ressources publiques en Guinée, Gabon, Bénin et Maroc
 - dossiers longs TDAH adulte, burnout autistique, HPI et accessibilité cognitive
-- nouveaux dossiers sur le diagnostic TDAH adulte francophone, l’école et les aménagements, le diagnostic tardif et le travail selon les territoires
+- nouveaux dossiers sur le diagnostic adulte francophone, le TDAH adulte francophone, l’école et les aménagements, le diagnostic tardif et le travail selon les territoires
 - sommaires sur les dossiers longs et balisage `Article` sur les articles concernés
 - modes de lecture Standard, Aérée et Compacte mémorisés localement
 - 8 outils disponibles en version web, imprimables et en PDF A4
@@ -39,7 +43,7 @@ Les témoignages renvoient vers les dossiers et les outils pertinents. Les manqu
 
 - Search Console demande l’accès au compte ou un jeton de vérification du domaine
 - les prochains témoignages doivent provenir de personnes réelles et consentantes
-- si l’éditeur souhaite publier une identité civile, une entité juridique ou une adresse postale dans les informations légales, ces données doivent être ajoutées explicitement
+- une adresse postale ou des données d’entreprise ne doivent être ajoutées aux informations légales que lorsqu’elles sont confirmées et qu’elles correspondent au statut réel de l’éditeur
 
 ## Déploiement
 

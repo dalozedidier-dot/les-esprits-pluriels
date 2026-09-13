@@ -58,7 +58,7 @@ if (toggle && nav) {
   const apply = () => {
     let visible = 0;
     cards.forEach(card => {
-      const okCountry = !country.value || card.dataset.country === country.value;
+      const okCountry = !country.value || card.dataset.country === country.value || card.dataset.region === country.value;
       const needs = (card.dataset.need || '').split(/\s+/);
       const doors = (card.dataset.door || '').split(/\s+/);
       const okNeed = !need.value || needs.includes(need.value);
