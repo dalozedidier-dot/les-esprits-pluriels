@@ -1644,3 +1644,26 @@ summary:focus-visible {
     height: 88px;
   }
 }
+
+
+/* v41 — Institutions et liens utiles */
+.links-intro{padding-bottom:20px}
+.links-jump{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}
+.links-jump a{display:inline-flex;align-items:center;min-height:38px;padding:8px 13px;border:1px solid rgba(30,58,64,.16);border-radius:999px;background:#fff;color:var(--deep);font-size:13px;font-weight:700;text-decoration:none}
+.links-jump a:hover,.links-jump a:focus-visible{background:var(--mint-soft)}
+.institution-region{padding-top:42px;padding-bottom:42px}
+.institution-region:nth-of-type(even){background:rgba(239,244,241,.42)}
+.institution-country-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.institution-country-card{padding:20px;border:1px solid rgba(30,58,64,.12);border-radius:18px;background:rgba(255,255,255,.88);box-shadow:0 10px 28px rgba(30,58,64,.05)}
+.institution-country-card h3{margin:0 0 14px;font:700 24px/1.15 var(--serif);color:var(--deep)}
+.institution-link-list{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+.institution-link-list li{margin:0}
+.institution-link-list a{display:block;padding:12px 13px;border-radius:13px;background:rgba(245,247,244,.82);text-decoration:none;border:1px solid transparent}
+.institution-link-list a:hover,.institution-link-list a:focus-visible{border-color:rgba(30,58,64,.18);background:#fff;transform:translateY(-1px)}
+.institution-link-list strong{display:block;color:var(--deep);font-size:14px;line-height:1.3}
+.institution-role{display:inline-block;margin-top:4px;color:#557278;font-size:11px;font-weight:700;letter-spacing:.04em;text-transform:uppercase}
+.institution-desc{display:block;margin-top:6px;color:#53686c;font-size:12.5px;line-height:1.5}
+.compact-resource-grid{max-width:520px}
+.links-method-note{margin:20px 0 0;color:#5f7478;font-size:13px}
+@media (max-width:1050px){.institution-country-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:680px){.institution-region{padding-top:30px;padding-bottom:30px}.institution-country-grid{grid-template-columns:1fr}.institution-country-card{padding:16px}.institution-country-card h3{font-size:22px}.links-jump{flex-wrap:nowrap;overflow-x:auto;padding-bottom:4px}.links-jump a{white-space:nowrap}}
