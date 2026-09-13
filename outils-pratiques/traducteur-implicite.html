@@ -57,13 +57,30 @@
 </div>
 </header>
 <main id="contenu">
-<section class="article-hero"><div class="section-inner"><p class="eyebrow">Outil de communication</p><h1>Traducteur d’implicite</h1><p class="article-intro">Une phrase floue devient une attente plus concrète, avec une question qui permet de vérifier ce qui est réellement attendu.</p><div class="hero-actions"><a class="button ghost" href="../outils.html">Retour aux outils</a></div></div></section>
-<section class="section"><div class="section-inner interactive-shell">
-<div class="note note-wide"><strong>Rendre une attente plus explicite</strong><p>Écrivez une phrase vague ou difficile à interpréter. L’outil propose deux reformulations concrètes et une question à poser. Le texte reste dans votre navigateur.</p></div>
-<div class="guided-form"><div class="guided-step"><label for="implicit-input">Phrase à clarifier</label><textarea id="implicit-input" placeholder="Exemple : sois plus proactif" rows="5"></textarea><div aria-label="Exemples" class="example-chips"><button data-implicit-example="Sois plus proactif" type="button">Sois plus proactif</button><button data-implicit-example="On s’en parle" type="button">On s’en parle</button><button data-implicit-example="Fais un effort" type="button">Fais un effort</button><button data-implicit-example="Sois plus autonome" type="button">Sois plus autonome</button></div></div><button class="button primary" id="implicit-run" type="button">Rendre la phrase explicite</button></div>
-<div aria-live="polite" class="guided-results" hidden="" id="implicit-results"><div class="result-card"><span>Formulation 1</span><p id="implicit-one"></p><button class="text-button" data-copy-target="implicit-one" type="button">Copier</button></div><div class="result-card"><span>Formulation 2</span><p id="implicit-two"></p><button class="text-button" data-copy-target="implicit-two" type="button">Copier</button></div><div class="result-card result-question"><span>Question à poser</span><p id="implicit-question"></p><button class="text-button" data-copy-target="implicit-question" type="button">Copier</button></div></div>
-<p class="tool-context">L’outil travaille sur la précision d’une consigne ou d’une attente. Le contexte humain reste déterminant pour choisir les mots qui conviennent.</p>
+<section class="article-hero"><div class="section-inner">
+<p class="eyebrow">Outil à partager</p><h1>Traducteur d’implicite</h1><p class="article-intro">Un support pour dire « quand je fais ceci, voilà ce que cela peut signifier chez moi et ce qui m’aide », sans demander à l’autre de deviner.</p>
+<p class="tool-role">Outil d’orientation ou de communication. Il ne produit aucun diagnostic et n’enregistre aucune donnée sur le site.</p>
+<div class="hero-actions"><button class="button primary print-button" onclick="window.print()" type="button">Imprimer</button><a class="button ghost" href="../outils.html">Retour aux outils</a></div>
 </div></section>
+<section class="section"><div class="section-inner interactive-tool" data-tool="traducteur">
+<div class="section-head"><div><p class="section-kicker">Rendre visible ce qui ne l’est pas</p><h2>Préparer un message à envoyer</h2></div><p>Choisissez une situation fréquente, adaptez les formulations à votre vécu, puis copiez ou envoyez le texte. Le modèle ne prétend pas expliquer toutes les personnes neurodivergentes.</p></div>
+<div class="privacy-note"><strong>Tout reste dans votre navigateur.</strong> Les champs ne sont ni envoyés au site ni enregistrés. Le bouton e-mail ouvre simplement votre logiciel de messagerie avec le texte préparé.</div>
+<div class="translator-layout">
+<form class="translator-form" id="implicit-form">
+<div class="tool-field"><label for="implicit-situation">Situation de départ</label><select id="implicit-situation"><option value="delay">Je ne réponds pas tout de suite</option><option value="withdraw">Je m’isole après un échange ou une journée dense</option><option value="details">Je demande beaucoup de détails</option><option value="direct">Je parle de façon très directe</option><option value="decline">Je décline une sortie ou je change d’avis</option><option value="gaze">Je regarde ailleurs pendant qu’on me parle</option><option value="custom">Autre situation</option></select></div>
+<div class="tool-field"><label for="implicit-when">Quand je fais ou dis ceci</label><textarea id="implicit-when" rows="3"></textarea></div>
+<div class="tool-field"><label for="implicit-meaning">Ce que cela peut vouloir dire chez moi</label><textarea id="implicit-meaning" rows="4"></textarea></div>
+<div class="tool-field"><label for="implicit-help">Ce qui m’aide</label><textarea id="implicit-help" rows="4"></textarea></div>
+<div class="tool-field"><label for="implicit-avoid">Ce qu’il vaut mieux éviter</label><textarea id="implicit-avoid" rows="3"></textarea></div>
+<div class="tool-actions"><button class="button ghost" id="implicit-reset" type="button">Revenir au modèle</button></div>
+</form>
+<div class="share-preview"><p class="eyebrow">Aperçu du message</p><div aria-live="polite" class="share-message" id="implicit-preview"></div><div class="tool-actions"><button class="button primary" id="implicit-copy" type="button">Copier le message</button><button class="button ghost" id="implicit-email" type="button">Préparer un e-mail</button><button class="button ghost" onclick="window.print()" type="button">Imprimer</button></div><p aria-live="polite" class="copy-status" id="implicit-status"></p></div>
+</div></div></section>
+<section class="section section-soft tool-next-step"><div class="section-inner"><div class="feature-grid three">
+<a class="feature-card" href="../relations-concretes.html"><strong>Mettre la relation en contexte</strong><span>Non-dits, récupération et communication explicite.</span><b>Lire →</b></a>
+<a class="feature-card" href="scripts-communication.html"><strong>Besoin de phrases très courtes</strong><span>Scripts de communication pour limites et récupération.</span><b>Ouvrir →</b></a>
+<a class="feature-card" href="carte-francophone.html"><strong>Besoin d’un appui local</strong><span>Quatre portes selon votre territoire.</span><b>S’orienter →</b></a>
+</div></div></section>
 </main>
 <footer class="site-footer">
 <div class="footer-inner">
