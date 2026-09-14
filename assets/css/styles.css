@@ -1678,3 +1678,9 @@ summary:focus-visible {
 @media (max-width: 700px) {
   .testimony-published-head { margin: 26px 0 16px; }
 }
+
+/* Article lead visuals */
+.article-lead-visual{margin:0 0 30px;max-width:760px;border:1px solid rgba(30,58,64,.12);border-radius:18px;overflow:hidden;background:#fff}
+.article-lead-visual img{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover}
+.article-origin-note{font-size:14px!important;color:#667a7e!important;border-left:3px solid rgba(198,132,85,.45);padding-left:14px;margin-bottom:28px!important}
+@media(max-width:720px){.article-lead-visual{max-width:100%;margin-bottom:22px;border-radius:14px}}
