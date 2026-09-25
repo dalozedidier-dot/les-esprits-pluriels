@@ -16,6 +16,13 @@
     }
 
     const type = form.elements.type.value || 'Message';
+    const sensitiveConsent = document.getElementById('contact-sensitive-consent');
+
+    if (type === 'Témoignage' && sensitiveConsent && !sensitiveConsent.checked) {
+      status.textContent = 'Pour proposer un témoignage, confirmez le consentement relatif aux données sensibles avant de continuer.';
+      sensitiveConsent.focus();
+      return;
+    }
     const name = form.elements.name.value.trim();
     const email = form.elements.email.value.trim();
     const page = form.elements.page.value.trim();
@@ -24,6 +31,9 @@
     if (name) lines.push(`Nom ou prénom : ${name}`);
     if (email) lines.push(`Adresse de réponse : ${email}`);
     if (page) lines.push(`Page concernée : ${page}`);
+    if (type === 'Témoignage' && sensitiveConsent?.checked) {
+      lines.push('Consentement explicite : j’accepte le traitement des données de santé ou de diagnostic que je choisis d’inclure dans ce témoignage, afin d’examiner ma contribution et de préparer une éventuelle publication. Je comprends que la publication fera l’objet d’une validation distincte.');
+    }
     if (lines.length) lines.push('');
     lines.push(message);
 
